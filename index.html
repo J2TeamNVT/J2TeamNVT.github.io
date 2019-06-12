@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nguyễn Văn Thọ</title>
+    <link rel="shortcut icon" href="./t.ico" type="image/ico">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <audio autoplay="autoplay">
+        <source src="amthambenem.mp3" type="audio/mp3"/> 
+    </audio>
+    <div class="navbar">
+        <div class="navbar-buttons">
+            <a href="game.html" target="black"><button class="button" type="button" name="button">Game</button></a>
+            
+            <span><img class="open-menu" src="menu.png  " alt=""/></span>
+        </div>
+    </div>
+    <div class="overlay">
+        <h2 class="nav-title"><a href="https://www.facebook.com/NVT.Dzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" target="black" class="ak">Nguyễn Văn Thọ</a></h2>
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="error.html" target="black">Đẹp Trai</a></li>
+                <li><a href="http://www.thodz.byethost33.com" target="black">Vui Tính</a></li>
+                <li><a href="https://www.youtube.com/watch?v=hAUubI7EZL0&t=27s" target="black">Thổi sáo</a></li>
+                
+                <li><img class="close-menu" src="cancel.png" alt=""/></li>
+            </ul>
+        </nav>
+    </div>
+    <script src=' https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+    $(document).ready(function(){
+        $('.open-menu').on('click',function(){
+            $('.overlay').addClass('open');
+        });
+        $('.close-menu').on('click',function(){
+            $('.overlay').removeClass('open');
+        });
+    });
+    </script>
+</body>
+</html>
